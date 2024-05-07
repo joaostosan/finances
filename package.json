@@ -1,0 +1,30 @@
+{
+  "name": "finances",
+  "version": "1.0.0",
+  "description": "Finances app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server --watch db.json",
+    "test": "npm run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaostosan/finances.git"
+  },
+  "keywords": [
+    "finances",
+    "js",
+    "html",
+    "css",
+    "node"
+  ],
+  "author": "Joao Vitor dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaostosan/finances/issues"
+  },
+  "homepage": "https://github.com/joaostosan/finances#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
